@@ -1,0 +1,56 @@
+/*variables*/
+:root {
+    --black: #230909;
+    --white: #fff3f3;
+}
+
+/*utilities*/
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-evenly {
+justify-content: space-evenly;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+/*document*/
+
+body {
+    background-image: url('../img/spy_plane.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+section {
+    background-color: var(--white);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 2rem 1rem 2rem 1rem;
+    border: var(--black) solid 5px;
+}
+
+h4 {
+    margin: auto;
+}
+
+input {
+    padding: 5px;
+    border: var(--black) solid 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
